@@ -9,3 +9,12 @@ def text_to_string():
 def quitar_comas(lorem_ipsum):
     lorem_sin_comas = lorem_ipsum.replace(",", "")
     return lorem_sin_comas
+
+def quitar_puntos(lorem_ipsum):
+    lorem_sin_punto = lorem_ipsum.replace(".", "")
+    return lorem_sin_punto
+
+def quitar_puntuacion(lorem_ipsum):
+    lorem_sin_comas = quitar_comas(lorem_ipsum)
+    lorem_sin_puntuacion = quitar_puntos(lorem_sin_comas)
+    return lorem_sin_puntuacion
