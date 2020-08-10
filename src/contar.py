@@ -20,4 +20,4 @@ def contar_palindromos(lorem_ipsum):
 
 
 def es_palindromo(palabra):
-    return palabra == reversed(palabra)
+    return palabra.lower() == palabra.lower()[::-1]
