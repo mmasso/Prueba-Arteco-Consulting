@@ -138,12 +138,16 @@ dmypy.json
 .pytype/
 
 ### VisualStudioCode ###
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+
+# GIT #
+.gitattributes
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
