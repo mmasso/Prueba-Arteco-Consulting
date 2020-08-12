@@ -11,7 +11,7 @@ def main():
     n_palindromos = contar_palindromos(lorem_sin_puntuacion)
     n_palabras_repetidas = contar_palabras_repetidas(lorem_sin_puntuacion)
     n_tuplas_repetidas = contar_tuplas_repetidas(lorem_ipsum)
-    return n_parrafos, n_frases, n_palabras, n_palindromos, n_palabras_repetidas, n_tuplas_repetidas
+    return n_parrafos + "\n" +  n_frases + "\n" + n_palabras + "\n" + n_palindromos + "\n" + n_palabras_repetidas + "\n" + n_tuplas_repetidas
 
 
 if __name__ == "__main__":
